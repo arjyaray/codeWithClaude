@@ -20,13 +20,8 @@ Claude Code is Anthropic's agentic coding tool that can read, modify, and execut
 
 Ollama is required to run local language models that Claude Code can use.
 
-#### For macOS & Linux:
 
-```bash
-curl -fsSL https://ollama.ai/install.sh | sh
-```
-
-#### For Windows:
+#### For Windows/Mac/Linux:
 
 Download and install Ollama from [https://ollama.ai/download](https://ollama.ai/download)
 
@@ -186,6 +181,13 @@ ollama serve
 ### Model Not Found
 
 Pull the model before using it:
+
+```bash
+ollama pull <model-name>
+```
+### List Models
+
+Before pulling the models check any models you have installed using:
 
 ```bash
 ollama pull <model-name>
