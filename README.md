@@ -190,7 +190,7 @@ ollama pull <model-name>
 Before pulling the models check any models you have installed using:
 
 ```bash
-ollama pull <model-name>
+ollama list
 ```
 
 ### Memory Issues
